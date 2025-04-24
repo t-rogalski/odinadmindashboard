@@ -1,0 +1,42 @@
+.panel {
+    background-color: white;
+    box-shadow: 0 10px 10px -5px rgba(0, 0, 0, 0.5);
+}
+
+.navprof {
+    padding: 20px;
+    display:flex;
+    justify-content: space-between;
+}
+
+.proficon {
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+}
+
+.lowernav {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hello {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 250px;
+}
+
+.buttons {
+    display: flex;
+    width: clamp(300px, 25%, 400px);
+    align-items: center;
+    justify-content: space-between;
+}
+
+.buttons > button {
+    width: 100px;
+}
+
