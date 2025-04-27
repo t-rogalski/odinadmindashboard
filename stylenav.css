@@ -6,13 +6,28 @@
 
 .navprof {
     padding: 20px;
-    display:flex;
-    justify-content: space-between;
+    display:grid;
+    grid-template-columns: 4fr 1fr;
+}
+
+.searchbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.searchbar > input {
+    width: 80%;
+    height: 2em;
+    background-color: hsl(0, 0%, 90%);
+    border: 1px solid hsl(0, 0%, 85%);
+    border-radius: 20px;
 }
 
 .proficon {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     width: 300px;
 }
 
