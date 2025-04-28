@@ -12,8 +12,9 @@
 
 .searchbar {
     display: flex;
-    justify-content: center;
+    justify-content: left;
     align-items: center;
+    gap: 10px;
 }
 
 .searchbar > input {
