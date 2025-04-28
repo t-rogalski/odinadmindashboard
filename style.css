@@ -12,8 +12,8 @@ body {
     display: grid;
     grid-template-rows: 1fr 3fr 3fr 1fr;
     font-size: 2rem;
-    padding: 10px;
     color: hsl(0, 0%, 95%);
+    min-width: 300px;
 }
 
 .logo {
@@ -37,10 +37,9 @@ body {
 }
 
 .left li {
-    padding: 5px 0 5px 50px;
+    padding: 0 0 10px 50px;
     list-style: none;
 }
-
 
 .right {
     background-color: hsl(0, 0%, 90%);
